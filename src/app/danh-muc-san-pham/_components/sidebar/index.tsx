@@ -38,7 +38,7 @@ export const Sidebar = ({
       >
         <Icon>categories</Icon>
         <Typography ml="10px" flex="1 1 0" fontWeight="600" textAlign="left">
-          Danh mục sản phẩm
+          Danh mục sản phẩm s
         </Typography>
       </Link>
       <StyledCategoryDropdown open={true} position={"relative"}>

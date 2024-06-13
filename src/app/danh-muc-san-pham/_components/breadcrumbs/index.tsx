@@ -26,7 +26,7 @@ export function Breadcrumb({
           (customerId ? `?customer=${customerId}` : "")
         }
       >
-        Danh mục sản phẩm
+        Danh mục sản phẩm s
       </Link>
       {params.slug?.map((s, index) => {
         const d = allProductGroups.find((resGroups) => resGroups.slug === s);
