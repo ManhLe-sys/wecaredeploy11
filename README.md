@@ -26,3 +26,12 @@ Added : Install All Latest Packages
 Fixed : Update Folder Structure and Some bugs Fixed
 Update : Refactor AppContext code `/src/contexts/AppContext.tsx`
 </pre>
+
+setup build src in local
+powershell -c "irm bun.sh/install.ps1 | iex" 
+bun init builder.io@latest
+npm install eslint@latest --save-dev
+npm install @t3-oss/env-nextjs/presets
+npm install @t3-oss/env-nextjs zod
+bun install
+bun init builder.io
